@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: auto;
+	font-family: 'Bangers', cursive;
+	
+}
+
+h2 {
+	margin: auto;
+	font-family: helvetica;
+}
+
+
+
+.topbox {
+	height: 20%;
+	width: 100%;
+	background-color: black;
+	justify-content: center;
+}
+
+.logo {
+	position: relative;
+	
+	background-color: black;
+
+	width: 100%;
+	
+}
+
+
+
+
+.navbar {
+	float:left;
+	display: block;
+	width: 100%;
+	height: 20%;
+	background-color: black;
+	text-align: center;
+	padding: 15px 15px;
+
+}
+  
+.navbar a {
+  color: white;
+  font-size: 40px;
+  font-family: 'Bangers', cursive;
+  padding: 10px 30px 10px 30px;
+  
+  text-decoration: none;
+  }
+
+.navbar a:hover {
+	background-color: #FD00FC; 
+	color: white;
+}
+
+.active {
+	background-color: #FD00FC; 
+	color: white;
+}
